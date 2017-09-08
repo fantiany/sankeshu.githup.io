@@ -1,0 +1,139 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e6ffef;
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.study{
+    width: 100%;
+    height: 176px;
+}
+.study_img{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.study_text{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.study_bb{
+    width: 85%;
+    height: 100%;
+    background: #cae8d6;
+}
+.study_back{
+    background: #04c64a;
+    height: 156px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+.study_banner{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    width: 162px;
+    left: 15px;
+}
+.study_text{
+    color: #fca000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.study_text p{
+    line-height: 31px;
+    margin-top: 39px;
+}
+.study_banner .swiper-wrapper img{width: 162px;height: 136px}
+.swiper-pagination-bullet-active{background: #04c44a}
+.home{width: 96%;margin:0 auto;margin-top: 42px;position: relative}
+.home .swiper-wrapper img{width: 100%;}
+.home_title{position: absolute;width: 80%;height: 30px;font-size: 16px;top: -28px;left: 10%;color: #fff;background: #04c34a;line-height: 30px;text-align: center;z-index: 999}
+.people{width: 96%;margin: 0 auto;margin-top:15px;display: flex}
+.people_img{float: left;width: 40%;}
+.people_img img{width: 100%}
+.people_text{float: left;width: 60%;font-size: 15px;color: #04c34a}
+.people_text ol{margin-left: 10px}
+.people_text ol li{line-height: 25px}
+.people_text p{font-size: 16px;margin-bottom: -4px;margin-left: 20px}
+.actives{
+   display: flex;
+   width: 100%;
+    background: #d1f5de;
+    margin: 0 auto;
+    margin-top: 59px;
+    position: relative;
+}
+.huo{
+    width: 96%;
+    margin:10px 10px;
+    background: #c4fbd7;
+}
+.dong{
+    width: 98%;
+    float: left;
+    margin-left: 1%;
+}
+.dong span{display: block;float: left;font-size: 14px;color: #fca000;line-height: 26px}
+.dong span a{text-decoration: none}
+.dong .one{
+    width: 26%;
+}
+.dong .two{
+    width: 74%;
+}
+.actives_img{position: absolute;width: 109px;height: 46px;left: 50%;margin-left: -54px;top: -40px}
+.actives_img img{width: 100%;height: 100%}
+.er{position: fixed;right: 0;height: 48px;font-size: 12px;line-height: 24px;color:#fff;background: rgba(0,0,0,.6);top: 250px;width: 54px}
+.share{width: 96%;background: #04c34a;color: #fff;height: 40px;margin: 0 auto;margin-top: 50px;margin-bottom: 80px;line-height: 40px;text-align: center;border-radius: 4px}
+.canvas{position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 1000;background: rgba(0,0,0,.8);display: none}
+.share_canvas{position: fixed;z-index: 1001;background: #fff;left: 0;right: 0;bottom: 0;height: 140px;color: #999;text-align: center;display: none}
+.share_find{height: 100px;float: left;width: 100%}
+.share_focus{height: 100px;width: 25%;float: left;font-size: 12px}
+.share_focus i{display: block;width: 100%;height: 70px;background-size: 50px 50px !important;}
+.share_focus span{display: block;width: 100%;height: 30px;font-size: 12px;line-height: 30px}
+.share_Qury i{background:url("../images/qury.jpg") no-repeat center bottom}
+.share_qq i{background:url("../images/QQ_share.png") no-repeat center bottom}
+.share_wx i{background:url("../images/wx.png") no-repeat center bottom}
+.share_wxfriend i{background:url("../images/wx_peng.png") no-repeat center bottom}
+.close_share{height: 40px;float: left;background: #dcdcdc;width: 100%;line-height: 40px;font-size: 16px}
+.erwei{position: fixed;height: 150px;top: 200px;left: 50%;margin-left: -75px;z-index: 1001;width: 150px;display: none}
+.erwei img{width: 100%;height: 100%}
+/* iphone5 */
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+    .people_text ol li{font-size: 12px}
+    .people_text p{font-size: 14px;}
+    .home_title{font-size: 14px}
+    .study_text p{font-size: 12px}
+    .study_banner{
+        position: absolute;
+        top: 15px;
+        bottom: 15px;
+        width: 152px;
+        left: 15px;
+    }
+    .study_banner .swiper-wrapper img{width: 152px;height: 126px}
+    .dong span{font-size: 12px;line-height: 22px}
+    .actives{margin-top: 42px}
+    .actives_img{position: absolute;width: 90px;height: 38px;left: 50%;margin-left: -45px;top: -34px}
+}
