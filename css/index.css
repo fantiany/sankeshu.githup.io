@@ -104,7 +104,7 @@ body{
 }
 .actives_img{position: absolute;width: 109px;height: 46px;left: 50%;margin-left: -54px;top: -40px}
 .actives_img img{width: 100%;height: 100%}
-.er{position: fixed;right: 0;height: 48px;font-size: 12px;line-height: 24px;color:#fff;background: rgba(0,0,0,.6);top: 250px;width: 54px}
+.er{position: fixed;right: 0;height: 48px;font-size: 12px;line-height: 24px;color:#fff;background: rgba(0,0,0,.6);top: 250px;width: 54px;z-index: 1000}
 .share{width: 96%;background: #04c34a;color: #fff;height: 40px;margin: 0 auto;margin-top: 50px;margin-bottom: 80px;line-height: 40px;text-align: center;border-radius: 4px}
 .canvas{position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 1000;background: rgba(0,0,0,.8);display: none}
 .share_canvas{position: fixed;z-index: 1001;background: #fff;left: 0;right: 0;bottom: 0;height: 140px;color: #999;text-align: center;display: none}
